@@ -150,7 +150,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Premium ceramic tiles &amp; surfaces. Architectural-grade porcelain.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
           
@@ -161,7 +166,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Contemporary lifestyle &amp; home décor. Curated objects.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
           
@@ -172,7 +182,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Handcrafted accessories &amp; gifting brand. Design-led pieces.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
           
@@ -183,7 +198,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Interior design &amp; visualization studio. Bespoke spaces.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
 
@@ -194,7 +214,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Architectural partitions, doors, windows &amp; bespoke wardrobes.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
 
@@ -205,7 +230,12 @@ export default function Results() {
             </div>
             <div className="fi-right">
               <p className="fi-desc">Luxury home décor &amp; curated interior accents. Timeless aesthetics.</p>
-              <div className="fi-arrow">↗</div>
+              <div className="fi-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
         </div>

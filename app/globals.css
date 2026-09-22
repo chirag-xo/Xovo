@@ -973,10 +973,18 @@ body:hover #cur {
 }
 
 .fi-arrow {
-  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white);
   transition: all 0.4s ease;
-  font-family: var(--sans);
+  flex-shrink: 0;
+}
+
+.fi-arrow svg {
+  width: 22px;
+  height: 22px;
+  display: block;
 }
 
 .flagship-item:hover .fi-arrow {
