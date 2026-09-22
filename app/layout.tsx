@@ -8,8 +8,23 @@ const syne = Syne({ subsets: ['latin'], variable: '--serif' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--sans' });
 
 export const metadata: Metadata = {
-  title: 'Akshita Garg, Marketing Strategist',
-  description: 'Portfolio of Akshita Garg, Marketing Strategist and Brand Builder.',
+  title: 'XOVO India - Marketing Studio',
+  description: 'XOVO India is a premier marketing and brand strategy studio, delivering category dominance, creative direction, and high-impact digital growth.',
+  icons: {
+    icon: [
+      { url: '/favicon.png' },
+      { url: '/icon.png' }
+    ],
+    shortcut: '/favicon.png',
+    apple: '/icon.png',
+  },
+  openGraph: {
+    title: 'XOVO India - Marketing Studio',
+    description: 'XOVO India is a premier marketing and brand strategy studio, delivering category dominance, creative direction, and high-impact digital growth.',
+    siteName: 'XOVO India',
+    locale: 'en_IN',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
