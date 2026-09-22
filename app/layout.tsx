@@ -8,6 +8,7 @@ const syne = Syne({ subsets: ['latin'], variable: '--serif' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--sans' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://xovoindia.com'),
   title: 'XOVO India - Marketing Studio',
   description: 'XOVO India is a premier marketing and brand strategy studio, delivering category dominance, creative direction, and high-impact digital growth.',
   icons: {
@@ -21,9 +22,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'XOVO India - Marketing Studio',
     description: 'XOVO India is a premier marketing and brand strategy studio, delivering category dominance, creative direction, and high-impact digital growth.',
+    url: 'https://xovoindia.com',
     siteName: 'XOVO India',
+    images: [
+      {
+        url: '/XOVO Logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'XOVO India - Marketing Studio',
+      },
+    ],
     locale: 'en_IN',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'XOVO India - Marketing Studio',
+    description: 'XOVO India is a premier marketing and brand strategy studio, delivering category dominance, creative direction, and high-impact digital growth.',
+    images: ['/XOVO Logo.png'],
   },
 };
 
